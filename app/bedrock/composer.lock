@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04f49b1bc6c7ea6d41279bcdfdca2deb",
+    "content-hash": "b11b467218104ea82dc4dc9facaf2d62",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1176,6 +1176,24 @@
                 }
             ],
             "time": "2022-10-16T01:01:54+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.22.24",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.22.24"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.22.24.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
         },
         {
             "name": "wpackagist-theme/twentytwentythree",
